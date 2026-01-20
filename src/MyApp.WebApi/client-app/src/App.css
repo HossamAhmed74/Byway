@@ -1,0 +1,49 @@
+/* --- Styles for Social Login Buttons --- */
+
+.custom-fb-button, .custom-google-button {
+    /* Standardize sizing and shape */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 160px; /* Make them wider */
+    height: 44px;     /* Set a professional standard height */
+    padding: 0 10px;
+    border-radius: 4px; /* Slightly rounded corners */
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+    flex: 1; /* Make them equal width */
+}
+
+/* --- Facebook Button --- */
+.custom-fb-button {
+    background-color: #1877f2; /* Official Facebook Blue */
+    color: white;
+    border: none;
+}
+
+.custom-fb-button:hover {
+    background-color: #166fe5; /* Darker blue on hover */
+}
+
+.custom-fb-button i, .custom-fb-button .fa {
+    margin-right: 8px;
+}
+
+/* --- Google Button --- */
+.custom-google-button {
+    background-color: white;
+    color: #3C4043; /* Dark gray text */
+    border: 1px solid #dadce0; /* Light gray border */
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05); /* Subtle shadow */
+}
+
+.custom-google-button:hover {
+    background-color: #f8f8f8;
+}
+
+.custom-google-button img, .custom-google-button svg {
+    margin-right: 9px;
+}
